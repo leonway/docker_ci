@@ -15,12 +15,13 @@
         }],
         "targets": [{
             "type": "sftp",
-            "name": "AliyunServer",
+            "name": "tencentcloudServer",
             "dir": "/root/source/docker_ci",
-            "host": "47.98.252.43",
+            "host": "81.69.24.152",
             "port": 22,
             "user": "root",
-            "privateKey": "/Users/xia/.ssh/id_rsa"
+            "password": "zxc@77256"
+            // "privateKey": "C:/Users/Administrator/.ssh/id_rsa"
         }],
     },
 }
